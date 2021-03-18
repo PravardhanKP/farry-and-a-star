@@ -23,7 +23,7 @@ function setup() {
 
 	fairy = createSprite(130,520);
 	fairy.addAnimation("fairyflying",fairyImg);  
-	fairy.scale =0.3;
+	fairy.scale =0.25;
 	fairy.velocityX = 0;
 	star = createSprite(650,30,option1);
 	star.addImage(starImg);
